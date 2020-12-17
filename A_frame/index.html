@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-assets>
+      <a-sky scr="assets/pogchamp.mp4"></a-sky>
+      <a-cone scr="assets/rem3.jpg"></a-cone>
+      <a-box scr="assets/rem2.jpg"></a-box>
+      <a-box scr="assets/rem1.jpg"></a-box>
+    </a-assets>     
+    <a-scene>
+      <a-sky src="assets/pogchamp.mp4"></a-sky>
+
+      <a-box src="assets/rem2.jpg" position="-2 0.5 -4"></a-box>
+      <a-sphere src="" radius="0.5" position="0 0.5 -3"></a-sphere>
+      <a-cone src="assets/rem3.jpg" height="2" radius-top="0.1" position="0 1 -6"></a-cone>
+      <a-box src="assets/rem1.jpg" position="2 0.5 -4"></a-box>
+
+      <a-plane src="" rotation="-90 0 0" height="100" width="100"></a-plane>
+
+      <a-light type="ambient" color="#445451"></a-light>
+      <a-light type="point" intensity="2" position="2 4 4"></a-light>
+    </a-scene>
+  </body>
+</html>
