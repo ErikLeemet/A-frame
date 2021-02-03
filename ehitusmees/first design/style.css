@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    flex-direction: column;
+    font-family: aino;
+}
+.title_image {
+    display: flex;
+    height: 130px;
+    width: 100%;
+    justify-content: center;
+}
+.logo {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    align-self: center;
+}
+.blue_block {
+    position: absolute;
+    top: 0;
+    width: 52.8%;
+    height: 130px;
+    clip-path: polygon(0 0, 99.2% 0, 95% 100%, 0% 100%);
+    background-color: #015EAB;
+    z-index: -9999;
+}
+
+ .blue_container{
+    width: 700px;
+    height: 330px;
+    background-color: #015EAB;
+    border-radius: 20px;
+}
+ .info {
+    display: flex;
+    justify-content: end;
+    padding: 25px;
+    max-width: 1920;
+}
+.more_info {
+    display: flex;
+    gap: 35px;
+    justify-content: end;
+    padding-right: 25px;
+    text-align: center;
+}
+.info_box1 {
+    display: flex;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.info_box2 {
+    display: flex;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.text_title1 {
+    width: 190px;
+    height: 50px;
+    border-radius: 20px;
+}
+.text_info1 {
+    width: 190px;
+    height: 120px;
+    border-radius: 20px;
+}
+.text_title2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+.text_info2 {
+    display: flex;
+    width: 434px;
+    height: 120px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.ehitusmees {
+    display: flex;
+    width: 680px;
+    height: 310px;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,28 @@
+[2021-01-20 18:12:59.487] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-20 18:12:59.487] [remoteagent] [info] Extension host agent started.
+[2021-01-20 18:13:00.048] [remoteagent] [info] [::ffff:172.30.32.1][5457a2c8][ExtensionHostConnection] New connection established.
+[2021-01-20 18:13:00.057] [remoteagent] [info] [::ffff:172.30.32.1][5bf8b568][ManagementConnection] New connection established.
+[2021-01-20 18:13:00.205] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-20 18:13:00.269] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/legends/.vscode'
+[2021-01-20 18:13:00.459] [remoteagent] [info] [::ffff:172.30.32.1][5457a2c8][ExtensionHostConnection] <105> Launched Extension Host Process.
+[2021-01-20 18:16:06.156] [remoteagent] [info] [::ffff:172.30.32.1][5bf8b568][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-20 18:16:07.206] [remoteagent] [info] [::ffff:172.30.32.1][5457a2c8][ExtensionHostConnection] <105> Extension Host Process exited with code: 0, signal: null.
+[2021-01-20 18:16:07.207] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-20 18:16:09.698] [remoteagent] [info] [::ffff:172.30.32.1][c65bad68][ManagementConnection] New connection established.
+[2021-01-20 18:16:09.701] [remoteagent] [info] [::ffff:172.30.32.1][f579f39d][ExtensionHostConnection] New connection established.
+[2021-01-20 18:16:09.713] [remoteagent] [info] [::ffff:172.30.32.1][f579f39d][ExtensionHostConnection] <434> Launched Extension Host Process.
+[2021-01-20 18:16:09.745] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-20 18:16:09.760] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/legends/.vscode'
+[2021-01-20 18:21:07.210] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-01-20 18:24:34.785] [remoteagent] [info] [::ffff:172.30.32.1][c65bad68][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-20 18:24:35.853] [remoteagent] [info] [::ffff:172.30.32.1][f579f39d][ExtensionHostConnection] <434> Extension Host Process exited with code: 0, signal: null.
+[2021-01-20 18:24:35.854] [remoteagent] [info] Last EH closed, waiting before shutting down

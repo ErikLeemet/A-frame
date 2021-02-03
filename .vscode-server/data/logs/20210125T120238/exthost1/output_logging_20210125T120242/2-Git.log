@@ -1,0 +1,49 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erik/py_test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :11.py
+> git ls-files --stage -- /home/erik/py_test/11.py
+> git check-ignore -v -z --stdin
+> git cat-file -s aafee47717c3ae13b77449db039fac456463de78
+> git show --textconv :1.py
+> git ls-files --stage -- /home/erik/py_test/1.py
+> git cat-file -s de1d84fbd1d699d4eac8b4b0f1fc1fecac85e1d9
+> git show --textconv :2.py
+> git ls-files --stage -- /home/erik/py_test/2.py
+> git cat-file -s d55ca6fdf2cf87174cb678be833d85187801e1f7
+> git show --textconv :3.py
+> git ls-files --stage -- /home/erik/py_test/3.py
+> git cat-file -s 38958f84306295348d2cf2cac8c20258e024bd23
+> git show --textconv :4.py
+> git ls-files --stage -- /home/erik/py_test/4.py
+> git cat-file -s cf8828572d28cf11f75c09bf6c3173e425ee3eeb
+> git show --textconv :5.py
+> git ls-files --stage -- /home/erik/py_test/5.py
+> git cat-file -s 772ea3d566010a27fd26711ff2c7e3b14029530c
+> git show --textconv :6.py
+> git ls-files --stage -- /home/erik/py_test/6.py
+> git cat-file -s d92bd61a95f0cd316a8c9d0fdbff31106c4d9ce2
+> git show --textconv :4.py
+> git ls-files --stage -- /home/erik/py_test/4.py
+> git cat-file -s cf8828572d28cf11f75c09bf6c3173e425ee3eeb
+> git show --textconv :1.py
+> git ls-files --stage -- /home/erik/py_test/1.py
+> git cat-file -s de1d84fbd1d699d4eac8b4b0f1fc1fecac85e1d9
+> git show --textconv :2.py
+> git ls-files --stage -- /home/erik/py_test/2.py
+> git cat-file -s d55ca6fdf2cf87174cb678be833d85187801e1f7
+> git show --textconv :3.py
+> git ls-files --stage -- /home/erik/py_test/3.py
+> git cat-file -s 38958f84306295348d2cf2cac8c20258e024bd23
+> git show --textconv :4.py
+> git ls-files --stage -- /home/erik/py_test/4.py
+> git cat-file -s cf8828572d28cf11f75c09bf6c3173e425ee3eeb

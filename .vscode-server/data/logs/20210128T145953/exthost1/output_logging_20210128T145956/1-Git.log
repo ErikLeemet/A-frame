@@ -1,0 +1,70 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erik/100days_tak20
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/Erik
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse Erik
+> git rev-parse --symbolic-full-name Erik@{u}
+> git rev-list --left-right Erik...refs/remotes/origin/Erik
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/100days_tak20/.git/refs/remotes/origin/Erik', is most likely packed.
+> git config --get commit.template

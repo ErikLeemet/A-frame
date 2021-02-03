@@ -1,0 +1,22 @@
+ html, body {
+    height: 100%;
+}
+body{
+    display: flex;
+}
+img {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: -100;
+}
+.day_container {
+    height: 50px;
+    width: 100px;
+    background-color: #4C72D4;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+span {
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+/*body and main div*/
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1519.2px;
+}
+.second_wrapper {
+    display: flex;
+}
+/*ehitusmees image*/
+.info_image {
+    position: absolute;
+    z-index: -9999;
+}
+.info_image > img {
+    display: flex;
+    height: 480px;
+    max-width: 920px;
+}
+/*second wrapper*/
+.second_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.blue_container {
+    background-color:#015EAB;
+    height: 722px;
+    width: 870px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 36% 100%, 24% 66%, 29% 28%);clip-path: polygon(15% 0, 100% 0, 100% 100%, 36% 100%, 24% 66%, 29% 28%);
+    display: flex;
+    justify-content: flex-end;
+}
+.logo {
+    height: 50px;
+}
+.blue_container > .logo > img {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+}
+/*contact- and location info*/
+.info_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+}

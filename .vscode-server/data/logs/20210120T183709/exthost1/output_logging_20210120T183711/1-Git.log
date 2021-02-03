@@ -1,0 +1,77 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erik
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :my_works/styles.css
+> git ls-files --stage -- /home/erik/my_works/styles.css
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/readme/logo-with-text.png
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/readme/logo-with-text.png
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/binder.nls.metadata.json
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/binder.nls.metadata.json
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/diagnosticTool.bundle.js
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/diagnosticTool.bundle.js
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/logo.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/logo.svg
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/configure.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/configure.svg
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/logo.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/logo.svg
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/disconnect.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/disconnect.svg
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/node.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/node.svg
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/dist/extension.js
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/dist/extension.js
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/package.json
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/package.json
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/media/markdown.css
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/media/markdown.css
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/media/markdown.css
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/media/markdown.css
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/resources/dark/configure.svg
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/diagnosticTool.bundle.js
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/binder.nls.metadata.json
+> git show --textconv :my_works/styles.css
+> git ls-files --stage -- /home/erik/my_works/styles.css
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/README.md
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/README.md
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/media/auth.html
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/media/auth.html
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/media/auth.css
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/microsoft-authentication/media/auth.css
+> git show --textconv HEAD:.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/package.json
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/markdown-language-features/package.json
+> git show --textconv :my_works/styles.css
+> git ls-files --stage -- /home/erik/my_works/styles.css
+> git show --textconv :my_works/works.html
+> git ls-files --stage -- /home/erik/my_works/works.html
+> git show --textconv :my_works/styles.css
+> git ls-files --stage -- /home/erik/my_works/styles.css
+> git show --textconv :my_works/about.html
+> git ls-files --stage -- /home/erik/my_works/about.html
+> git show --textconv :my_works/info
+> git ls-files --stage -- /home/erik/my_works/info
+> git check-ignore -v -z --stdin
+> git show --textconv :my_works/.vscode/settings.json
+> git ls-files --stage -- /home/erik/my_works/.vscode/settings.json
+> git check-ignore -v -z --stdin
