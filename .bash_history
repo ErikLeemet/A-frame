@@ -450,3 +450,10 @@ git push origin
 git commit "first commit"
 git commit drip-games
 git push -u origin main
+ls
+cd legends/
+code .
+cd ..
+mkdir ore-clicker
+cd ore-clicker/
+code .

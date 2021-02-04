@@ -16,3 +16,7 @@
 [2021-02-04 14:55:18.013] [exthost] [info] eager extensions activated
 [2021-02-04 14:55:18.015] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
 [2021-02-04 14:55:18.015] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-04 14:57:37.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-02-04 14:57:37.795] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-02-04 14:57:46.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-02-04 14:57:46.523] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/erik/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/css-language-features/client/dist/node/cssClientMain

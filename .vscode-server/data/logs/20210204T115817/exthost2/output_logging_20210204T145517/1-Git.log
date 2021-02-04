@@ -55,3 +55,244 @@ Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most
 > git show --textconv HEAD:test
 > git ls-tree -l HEAD -- /home/erik/test
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git cat-file -s b56faaa0dd4059a6fdea075a4f32f87d4dca4168
+> git show --textconv :.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/erik/test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git cat-file -s 277c29e4b55eafa701a9208167de3d3b063d9719
+> git show --textconv :.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/erik/test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git cat-file -s 5fe4821b7f36eff6a1a6d84cc308bb05d770549d
+> git show --textconv :.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git branch
+> git reset -q HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git pull --tags origin main
+From https://github.com/ErikLeemet/A-frame
+ * branch            main       -> FETCH_HEAD
+> git push origin main:main
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv :ore-clicker/ore-clicker.html
+> git ls-files --stage -- /home/erik/ore-clicker/ore-clicker.html
+> git check-ignore -v -z --stdin
+> git show --textconv :ore-clicker/style.css
+> git ls-files --stage -- /home/erik/ore-clicker/style.css
+> git check-ignore -v -z --stdin
+> git show --textconv :ore-clicker/ore-clicker.html
+> git ls-files --stage -- /home/erik/ore-clicker/ore-clicker.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erik/ore-clicker/ore-clicker.html
+To https://github.com/ErikLeemet/A-frame.git
+   66fb95d..418d89a  main -> main
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git ls-files --stage -- /home/erik/ore-clicker/ore-clicker.html
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv :ore-clicker/ore-clicker.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git ls-files --stage -- /home/erik/ore-clicker/ore-clicker.html
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv :ore-clicker/ore-clicker.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erik/ore-clicker/ore-clicker.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/erik/.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git ls-files --stage -- /home/erik/ore-clicker/ore-clicker.html
+> git show --textconv HEAD:.vscode-server/data/logs/20210204T115817/exthost2/output_logging_20210204T145517/1-Git.log
+> git show --textconv :ore-clicker/ore-clicker.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

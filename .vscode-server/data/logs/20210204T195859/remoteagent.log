@@ -1,0 +1,19 @@
+[2021-02-04 19:58:59.201] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-02-04 19:58:59.201] [remoteagent] [info] Extension host agent started.
+[2021-02-04 19:58:59.554] [remoteagent] [info] [::ffff:192.168.32.1][dbb3b4fa][ExtensionHostConnection] New connection established.
+[2021-02-04 19:58:59.556] [remoteagent] [info] [::ffff:192.168.32.1][6cfe9266][ManagementConnection] New connection established.
+[2021-02-04 19:58:59.572] [remoteagent] [info] [::ffff:192.168.32.1][f0c83f4c][ManagementConnection] New connection established.
+[2021-02-04 19:58:59.576] [remoteagent] [info] [::ffff:192.168.32.1][ffbce76b][ExtensionHostConnection] New connection established.
+[2021-02-04 19:58:59.662] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/ore-clicker/.vscode'
+[2021-02-04 19:58:59.785] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/legends/.vscode'
+[2021-02-04 19:59:02.110] [remoteagent] [info] [::ffff:192.168.32.1][dbb3b4fa][ExtensionHostConnection] <275> Launched Extension Host Process.
+[2021-02-04 19:59:02.116] [remoteagent] [info] [::ffff:192.168.32.1][ffbce76b][ExtensionHostConnection] <276> Launched Extension Host Process.
