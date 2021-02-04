@@ -9,3 +9,26 @@ Open repository: /home/erik
 > git check-ignore -v -z --stdin
 > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erik/drip_game/style.css
 > git add -A -- .
+warning: adding embedded git repository: .nvm
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .nvm
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .nvm
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: 100days_tak20
+warning: adding embedded git repository: TAK20-platformer
+warning: adding embedded git repository: py_test
+warning: adding embedded git repository: test
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+> git remote add drip https://github.com/RasmusLing/drip-games.git
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erik/drip_game/style.css

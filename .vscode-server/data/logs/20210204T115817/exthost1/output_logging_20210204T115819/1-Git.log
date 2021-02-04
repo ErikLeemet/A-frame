@@ -1,0 +1,45 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erik
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :legends/style.css
+> git ls-files --stage -- /home/erik/legends/style.css
+> git cat-file -s 8bb34e10f9374942646a79942a992fe0ee20f1fa
+> git ls-files --stage -- /home/erik/legends/style.css
+> git cat-file -s 8bb34e10f9374942646a79942a992fe0ee20f1fa
+> git show --textconv :legends/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/erik/legends/style.css
+> git cat-file -s 8bb34e10f9374942646a79942a992fe0ee20f1fa
+> git show --textconv :legends/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :legends/index.html
+> git ls-files --stage -- /home/erik/legends/index.html
+> git cat-file -s 48b9d2f8470e12ad386d5f10839734a6c50922b3

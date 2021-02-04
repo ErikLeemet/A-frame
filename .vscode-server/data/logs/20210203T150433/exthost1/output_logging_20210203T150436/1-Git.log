@@ -1,0 +1,28 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/erik/drip_game
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+fatal: no upstream configured for branch 'main'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :style.css
+> git ls-files --stage -- /home/erik/drip_game/style.css
+> git cat-file -s c37bd104822ccf60953454de22cdfd6df71d4002
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/erik/drip_game/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/erik/drip_game/style.css
+> git rev-parse main
+> git cat-file -s c37bd104822ccf60953454de22cdfd6df71d4002
+> git rev-parse --symbolic-full-name main@{u}
+fatal: no upstream configured for branch 'main'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :style.css

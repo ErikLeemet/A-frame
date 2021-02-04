@@ -378,3 +378,75 @@ npm i
 npm run dev
 npm i -g npm
 nvm install 15.7.0
+mkdir drip_game
+cd drip_game/
+code .
+git init
+git commit -m "commit"
+git add .
+git commit -m "commit"
+git remote add origin https://github.com/RasmusLing/drip-games.git
+git push -u origin main
+git remote add origin https://github.com/RasmusLing/drip-games.git
+git push -u origin main
+git clone https://github.com/RasmusLing/drip-games.git
+ls
+git clone https://github.com/RasmusLing/drip-games.git
+ls
+cd drip-games
+code .
+cd ..
+ls
+cd drip-game
+cd drip_game
+ls
+git remote add https://github.com/RasmusLing/drip-games.git
+git init
+git commit
+git branch -M main
+git push -u origin main
+git push
+git push origin main
+--help
+git push --help
+code .
+git checkout
+git push origin main\
+git branch -M main
+git push -u origin main
+ls
+mv drip_game drip-games
+cd drip-games
+ls
+cd ..
+ls
+cd drip-games
+mv drip_game . drip-games
+cd ..
+mv drip_game home
+mv drip_game erik@ERIK
+cd drip-games/
+cd drip_game/
+cd ..
+code .
+push origin main
+git push origin main
+git checkout
+git commit
+git add .
+git commit
+git commit "second commit"
+git commit "first commit"
+git commit "commit"
+git commit
+git push -u master
+git push -u origin
+git push origin
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+git push origin
+git commit "first commit"
+git commit drip-games
+git push -u origin main

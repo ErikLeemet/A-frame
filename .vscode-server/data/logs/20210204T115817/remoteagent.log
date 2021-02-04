@@ -1,0 +1,21 @@
+[2021-02-04 11:58:17.652] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-02-04 11:58:17.652] [remoteagent] [info] Extension host agent started.
+[2021-02-04 11:58:17.751] [remoteagent] [info] [::ffff:192.168.32.1][10c10ec3][ManagementConnection] New connection established.
+[2021-02-04 11:58:17.753] [remoteagent] [info] [::ffff:192.168.32.1][035b265b][ExtensionHostConnection] New connection established.
+[2021-02-04 11:58:17.768] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-02-04 11:58:17.773] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/legends/.vscode'
+[2021-02-04 11:58:18.328] [remoteagent] [info] [::ffff:192.168.32.1][035b265b][ExtensionHostConnection] <499> Launched Extension Host Process.
+[2021-02-04 14:55:17.245] [remoteagent] [info] [::ffff:192.168.32.1][9cf9cd79][ManagementConnection] New connection established.
+[2021-02-04 14:55:17.246] [remoteagent] [info] [::ffff:192.168.32.1][8e3d8672][ExtensionHostConnection] New connection established.
+[2021-02-04 14:55:17.256] [remoteagent] [info] [::ffff:192.168.32.1][8e3d8672][ExtensionHostConnection] <16648> Launched Extension Host Process.
+[2021-02-04 14:55:17.266] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-02-04 14:55:17.277] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/erik/ore-clicker/.vscode'
