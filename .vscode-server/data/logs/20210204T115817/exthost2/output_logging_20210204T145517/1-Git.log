@@ -23,3 +23,35 @@ Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git add -A -- .
+warning: adding embedded git repository: drip-games
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> drip-games
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached drip-games
+hint: 
+hint: See "git help submodule" for more information.
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/erik/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv HEAD:test
+> git ls-tree -l HEAD -- /home/erik/test
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:test
+> git ls-tree -l HEAD -- /home/erik/test
+> git show --textconv HEAD:test
+> git ls-tree -l HEAD -- /home/erik/test
+> git add -A -- .
